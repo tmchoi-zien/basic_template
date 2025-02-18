@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tailwind에서 사용할 수 있는 스크롤바 커스터마이징 */
+.scrollbar-thin {
+  scrollbar-width: thin; /* Firefox */
+}
+
+.scrollbar-thumb {
+  scrollbar-color: #0e1b6b #eee; /* Firefox */
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* 스크롤바 너비 */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 스크롤바 트랙 색상 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0e1b6b; /* 스크롤바 썸 색상 */
+  border-radius: 10px; /* 썸의 둥근 모서리 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 썸이 hover될 때 색상 */
+}

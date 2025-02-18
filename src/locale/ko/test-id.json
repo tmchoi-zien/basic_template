@@ -1,0 +1,34 @@
+{
+  "modal": {
+    "infra-detail": {
+      "test-name": "modal-infra-detail",
+      "tb-infra-name": "modal-infra-detail-tb-infra-name",
+      "tb-hostname": "modal-infra-detail-tb-hostname",
+      "tb-ip": "modal-infra-detail-tb-ip",
+      "tb-category": "modal-infra-detail-tb-category",
+      "tb-target-type": "modal-infra-detail-tb-target-type",
+      "tb-asset-manager": "modal-infra-detail-tb-asset-manager",
+      "tb-infra-manager": "modal-infra-detail-tb-infra-manager",
+      "tb-purpose": "modal-infra-detail-tb-purpose",
+      "tb-mac": "modal-infra-detail-tb-mac",
+      "table-inspection": "modal-infra-detail-table-insepction",
+      "table-vuln": "modal-infra-detail-table-vuln"
+    }
+  },
+  "icon": {
+    "asset": "icon-asset",
+    "target": "icon-target",
+    "trash": "icon-trash"
+  },
+  "pages": {
+  },
+  "component": {
+    "tab": "component-tab",
+    "file-upload": "component-file-upload",
+    "table": "component-table",
+    "toggle-button": "component-toggle-button",
+    "text-field-box": "component-text-field-box",
+    "radio-group": "component-radio-group",
+    "input-box": "component-input-box"
+  }
+}

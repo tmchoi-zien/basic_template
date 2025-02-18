@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "next", // Next.js 기본 설정
+    "next/core-web-vitals", // 웹 성능에 초점
+    "eslint:recommended", // 기본 ESLint 규칙
+    "plugin:react/recommended", // React 관련 규칙
+    "plugin:jsx-a11y/recommended", // 접근성 관련 규칙
+    "plugin:import/errors", // import 정렬 규칙
+    "plugin:import/warnings",
+    "plugin:prettier/recommended" // Prettier를 ESLint와 통합
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off", // React 17 이상에서 불필요
+    "jsx-a11y/anchor-is-valid": "off", // Next.js의 Link 컴포넌트와 관련된 경고 비활성화
+    "import/no-unresolved": "error", // 경로 오류 방지
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }], // 사용하지 않는 변수 경고
+    "prettier/prettier": "warn", // Prettier 관련 경고를 표시
+    "no-focused-tests": "error", //  .only사용하지 못하도록 방지
+    "no-commented-out-tests": "error", // 주석처리된 테스트코드 방지
+    "valid-expect-in-promise": "error", // 비동기테스트 오류 방지
+    "no-conditional-expect": "error" // 조건문 안에 expect방지
+  }
+}
