@@ -8,7 +8,7 @@ import {
   ComponentType,
   useContext,
 } from "react";
-import Modal, { SizeType } from "@/components/commons/Modal";
+import Modal, { SizeType } from "@/components/modals/Modal";
 
 export interface openModalProps {
   options: {

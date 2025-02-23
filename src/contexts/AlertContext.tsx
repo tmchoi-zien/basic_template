@@ -7,7 +7,7 @@ import {
   useContext,
   useState,
 } from "react";
-import AlertModal from "@/components/commons/AlertModal";
+import AlertModal from "@/components/modals/AlertModal";
 import { CONFIRM_NO, CONFIRM_OK } from "@/constants/common";
 
 type TYPE_ALERT = "alert";

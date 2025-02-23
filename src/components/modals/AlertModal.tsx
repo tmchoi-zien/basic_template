@@ -1,6 +1,6 @@
 import React from "react";
 
-import Button, { ColorType } from "./Button";
+import Button, { ColorType } from "../commons/Button";
 
 export interface Props {
   title?: string;

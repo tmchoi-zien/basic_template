@@ -1,5 +1,5 @@
 "use client";
-import Sidebar from "../commons/Sidebar";
+import Sidebar from "./Sidebar";
 
 export default function ContentLayout({
   children,
